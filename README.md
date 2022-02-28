@@ -9,7 +9,7 @@ Many statistical methods, including discriminant analysis, logistic regression, 
 
 Logistic regression can be thought of as a special case of linear regression models. However, the binary response variable violates the normality assumption of the general regression model. A logistic regression model specifies that an appropriate function for the fitted probability of an event is a linear function of the observed values ​​of the available explanatory variables. The main advantage of this method is that it yields a simple classification probability formula.
 
-## Data
+## Dataset
 In this project, I will explore the dataset from Taiwan, which contains information on default payments, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005. Totally, there are 30000 customers' records with 23 features and 1 response (default.payment.next.month)
 
 ## Technologies
