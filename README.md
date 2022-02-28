@@ -1,4 +1,4 @@
-# Predicting-Credit-Card-Default
+# Predicting Credit Card Default
 
 ## Introduction
 Credit card issuers have faced a credit card debt crisis in recent years, with delinquency rates expected to peak in the third quarter. To increase market share, card-issuing banks offer more cash and credit cards to ineligible applicants. At the same time, most cardholders, regardless of their ability to repay, are overspending on their credit cards, accumulating large amounts of credit card and cash card debt. The crisis has shattered confidence in consumer finance and is a huge challenge for banks and cardholders alike.
