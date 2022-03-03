@@ -12,10 +12,6 @@ Logistic regression can be thought of as a special case of linear regression mod
 ## Dataset
 In this project, I will explore the dataset from Taiwan, which contains information on default payments, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005. Totally, there are 30000 customers' records with 23 features and 1 response (default.payment.next.month)
 
-## Technologies
-This project is created with:
-* Jupyter Notebook 6.0.3
-
 ## Features
 There are 23 features, which include all types of data: categorical, discrete and continuous numerical variables.  
 * LIMIT_BAL(numerical): Amount of given credit in NT dollars (includes individual and family/supplementary credit)
@@ -27,3 +23,32 @@ There are 23 features, which include all types of data: categorical, discrete an
 * BILL_AMT1 to BILL_AMT6(numerical): Amount of bill statement in from  September to April,  2005 (NT dollar)
 * PAY_AMT1 to PAY_AMT6 (numerical) : Amount of previous payment  in from September to April, 2005 (NT dollar)
 * default.payment.next.month: Default payment (1=yes, 0=no)
+
+
+## Library Used
+```
+import pandas as pd
+import numpy as np
+import seaborn as sns
+from statsmodels.graphics.mosaicplot import mosaic
+import matplotlib.pyplot as plt
+%matplotlib inline
+import statsmodels.api as sm
+from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_curve
+
+import statsmodels.formula.api as smf
+from scipy import stats
+from scipy.stats import chi2_contingency
+from sklearn.utils import shuffle
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.model_selection import KFold
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model  import LogisticRegression
+from sklearn.linear_model  import LogisticRegressionCV
+```
+
+## Technologies
+This project is created with:
+* Jupyter Notebook 6.0.3
