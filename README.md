@@ -36,7 +36,6 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
-
 import statsmodels.formula.api as smf
 from scipy import stats
 from scipy.stats import chi2_contingency
